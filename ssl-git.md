@@ -42,6 +42,12 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 
 ## SSL Key caching in Git
 
+If your system does not yet have Git installed:
+
+```bash
+sudo apt install git
+```
+
 Setup git credential cache
 
 ```bash
