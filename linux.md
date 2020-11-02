@@ -67,12 +67,23 @@ Go to the Themes section of System Settings and set the following:
 
 ### __Install ZSH and Oh My ZSH__
 
-Install ZSH - BASH: ```sudo apt-get install zsh```
-Install OhMyZSH (https://ohmyz.sh/)  BASH:  ```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+Install ZSH
 
-- Update Bash shell to use DejaVu Sans Powerline patched font (Windows Ubuntu shell, Properties, Font)
+```bash
+sudo apt-get install zsh
+```
 
-BASH: Use nano to edit ~/.zshrc, change ZSH_THEME to "agnoster"
+Install OhMyZSH (https://ohmyz.sh/)
+
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Install Powerline fonts
+
+```
+sudo apt-get install fonts-powerline
+```
 
 ### __Configure Git and SSL__
 
@@ -82,7 +93,7 @@ BASH: Use nano to edit ~/.zshrc, change ZSH_THEME to "agnoster"
 
 BASH: Add Reload Alias to .zshrc ```alias reload="source ~/.zshrc"```
 
-BASH: Add Dev Alias to .zshrc ```alias dev="cd /mnt/c/dev"```
+BASH: Add Dev Alias to .zshrc ```alias dev="cd ~/dev"```
 
 ## Languages
 
