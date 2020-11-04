@@ -123,26 +123,17 @@ Install Phython 3.8 and verify the install
 ```bash
 sudo apt install python3.8
 
-python ––version
+python3 ––version
 ```
 
 ### __Ruby__
 
-Install the GPG Key and RVM management tool
+Install Ruby
 
 ```bash
-gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+sudo apt-get install ruby-full
 
-curl -sSL https://get.rvm.io | bash -s stable
-```
-
-Use RVM to list current versions and install latest version
-
-```bash
-rvm list known
-rvm install 1.9.3 
-
-rb --version ????????????????
+rb -v
 ```
 
 ## Apps
