@@ -27,7 +27,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; ./setup-step-two.ps1
 
 #### Base WSL Install
 
-- Ubuntu Distro - https://aka.ms/wsl-ubuntu-1804
+- Ubuntu Distro 20.04 - https://aka.ms/wslubuntu2004
+- Ubuntu Distro 18.04 - https://aka.ms/wsl-ubuntu-1804
 - Debian Distro - https://aka.ms/wsl-debian-gnulinux
 - Whitewater Foundry Fedora Reloaded - https://github.com/WhitewaterFoundry/WSLFedoraRemix/releases/
 
